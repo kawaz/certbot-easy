@@ -20,4 +20,4 @@ done
 echo "# Add to httpd.conf"
 echo "Include \"$prefix/etc/httpd/certbot.conf\""
 echo "# Execute"
-printf "%q/bin/add.sh domain [..domains]\n" "$prefix"
+printf "%q/bin/add.sh email domain [..domains]\n" "$prefix"
