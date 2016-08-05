@@ -1,0 +1,2 @@
+Include __CERTBOT_PREFIX__/etc/httpd/certbot-alias.conf
+Include __CERTBOT_PREFIX__/etc/httpd/certbot-ssl.conf

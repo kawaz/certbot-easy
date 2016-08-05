@@ -1,0 +1,7 @@
+# Certbot
+AliasMatch ^/(\.well-known/acme-challenge/.*) __CERTBOT_PREFIX__/webroot/$1"
+<Directory __CERTBOT_PREFIX__/webroot>
+  Options None
+  AllowOverride None
+  Require all granted
+</Directory>

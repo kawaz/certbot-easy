@@ -1,0 +1,4 @@
+/etc/httpd/*.conf
+/etc/httpd/conf.d/*.conf
+/libexec/certbot-auto
+certbot.log
